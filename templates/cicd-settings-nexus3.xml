@@ -8,7 +8,7 @@
      <server>
         <id>nexus3</id>
         <username>admin</username>
-        <password>admin123</password>
+        <password>azza</password>
      </server>
   </servers>
   <mirrors>
@@ -16,7 +16,7 @@
       <!--This sends everything else to /public -->
       <id>nexus</id>
       <mirrorOf>*</mirrorOf>
-      <url>http://nexus:8081/repository/maven-all-public/</url>
+      <url>http://nexus-nexus.apps.it.3s.local/repository/maven-all-public/</url>
     </mirror>
   </mirrors>
   <profiles>
